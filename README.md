@@ -50,6 +50,7 @@ print(sms.getStatus(id))
 sms.setNumberNewCode(id)
 
 # When finished working with number / Когда завершили работу с номером
+# Can cause ERROR, not recommend / Может вызывать непредвиденую ошибку на сервере, не рекомендуется использовать
 sms.setNumberFinish(id)
 
 # If number already used / Если номер уже использован
